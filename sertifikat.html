@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haris Darmawan Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body class="bg-[#0d1117] text-white font-sans">
+
+    <div class="min-h-screen flex flex-col md:flex-row">
+
+         <!-- Sidebar -->
+        <aside
+            class="w-full md:w-1/4 bg-[#161b22] border-r border-gray-700 shadow-md p-6 flex flex-col items-center gap-6">
+            <!-- Profile Image -->
+            <div
+                class="w-40 h-40 rounded-full overflow-hidden ring-2 ring-blue-600 shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+                <img src="img/sa.png" alt="Profile Image" class="w-full h-full object-cover object-top" />
+            </div>
+            <!-- Name & Role -->
+            <div class="text-center">
+                <h1 class="text-xl font-bold">Haris Darmawan</h1>
+                <p class="text-sm text-gray-400">Web Developer</p>
+
+                <!-- Media Sosial -->
+                <div class="flex justify-center gap-6 mt-6 text-gray-400">
+                    <!-- GitHub -->
+                    <a href="https://github.com/HariisDermawan" target="_blank" class="hover:text-white transition"
+                        aria-label="GitHub">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/haris-darmawan-1285102a4/" target="_blank"
+                        class="hover:text-blue-400 transition" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/hariisdermawan_" target="_blank" class="hover:text-pink-400 transition"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Tombol Navigasi -->
+            <div class="flex justify-center gap-4 mt-2">
+                <a href="index.html"
+                    class="px-3 py-2 bg-blue-600 text-white text-sm rounded-full hover:bg-blue-700 shadow transition">
+                    🚀 Project
+                </a>
+                <a href="skills.html"
+                    class="px-3 py-2 bg-blue-600 text-white text-sm rounded-full hover:bg-blue-700 shadow transition">
+                    🧠 Skills
+                </a>
+                <a href="sertifikat.html"
+                    class="px-3 py-2 bg-blue-600 text-white text-sm rounded-full hover:bg-blue-700 shadow transition">
+                    📄 Sertifikat
+                </a>
+
+            </div>
+
+            <!-- README Card -->
+            <div class="w-full bg-[#161b22] border border-gray-700 rounded-lg shadow-md p-4">
+                <h2 class="text-lg font-semibold text-white mb-2">📘 README.md</h2>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Hai, saya Haris Darmawan. Saya saat ini sedang menjalani studi di Universitas Pamulang dengan
+                    jurusan Teknik Informatika.<br><br>
+                    Saya memiliki ketertarikan besar dalam pengembangan aplikasi web dan teknologi digital. Fokus utama
+                    saya adalah menjadi
+                    seorang fullstack developer yang andal, dengan pengalaman dalam membangun antarmuka pengguna yang
+                    interaktif dan backend yang efisien.<br><br>
+                    Saat ini, saya aktif mengembangkan proyek-proyek pribadi untuk menambah pengalaman, dan terbuka
+                    untuk kolaborasi
+                    maupun kontribusi di dunia pengembangan perangkat lunak.
+                </p>
+            </div>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-6 bg-[#0d1117] min-h-screen">
+            <h2 class="text-3xl font-bold text-white mb-8">📄 My Certificates</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Sertifikat 1 -->
+                <div
+                    class="bg-[#161b22] border border-gray-700 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                    <img src="sertifikat/bwa.jpg" alt="Certificate HTML"
+                        class="w-full h-40 object-cover rounded-t-xl">
+                    <div class="p-4 space-y-2">
+                        <h3 class="text-lg font-bold text-blue-400">BWA</h3>
+                        <p class="text-sm text-gray-400">Web Security untuk penetration tester dan bug bounty hunter</p>
+                        
+                    </div>
+                </div>
+
+                <!-- Sertifikat 2 -->
+                <div
+                    class="bg-[#161b22] border border-gray-700 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                    <img src="sertifikat/dicoding.jpg" alt="Certificate JS"
+                        class="w-full h-40 object-cover rounded-t-xl">
+                    <div class="p-4 space-y-2">
+                        <h3 class="text-lg font-bold text-blue-400">Dicoding</h3>
+                        <p class="text-sm text-gray-400">Memulai Pemrograman dengan python</p>
+                        
+                    </div>
+                </div>
+
+                <!-- Sertifikat 3 -->
+                <div
+                    class="bg-[#161b22] border border-gray-700 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                    <img src="sertifikat/hp.jpg" alt="Certificate Laravel"
+                        class="w-full h-40 object-cover rounded-t-xl">
+                    <div class="p-4 space-y-2">
+                        <h3 class="text-lg font-bold text-blue-400">Hp</h3>
+                        <p class="text-sm text-gray-400">Cyber Security Awareness</p>
+                        
+                    </div>
+                </div>
+                <div
+                    class="bg-[#161b22] border border-gray-700 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                    <img src="sertifikat/bwa2.jpg" alt="Certificate Laravel"
+                        class="w-full h-40 object-cover rounded-t-xl">
+                    <div class="p-4 space-y-2">
+                        <h3 class="text-lg font-bold text-blue-400">BWA</h3>
+                        <p class="text-sm text-gray-400">Freelance web developer bikin marketplace product digital</p>
+                        
+                    </div>
+                </div>
+                <div
+                    class="bg-[#161b22] border border-gray-700 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                    <img src="sertifikat/jadihacker.jpg" alt="Certificate Laravel"
+                        class="w-full h-40 object-cover rounded-t-xl">
+                    <div class="p-4 space-y-2">
+                        <h3 class="text-lg font-bold text-blue-400">Jadi Hacker</h3>
+                        <p class="text-sm text-gray-400">Hacked now what</p>
+                        
+                    </div>
+                </div>
+                <div
+                    class="bg-[#161b22] border border-gray-700 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+                    <img src="sertifikat/ai.jpg" alt="Certificate Laravel"
+                        class="w-full h-40 object-cover rounded-t-xl">
+                    <div class="p-4 space-y-2">
+                        <h3 class="text-lg font-bold text-blue-400">Indonesia AI</h3>
+                        <p class="text-sm text-gray-400">Python Programming</p>
+                        
+                    </div>
+                </div>
+
+                <!-- Tambah lebih banyak sertifikat sesuai kebutuhan -->
+
+            </div>
+            <footer class="bg-[#0d1117] text-gray-400 text-center mt-5">
+                <p class="text-sm">
+                    &copy; <span id="year"></span> Haris Darmawan. All rights reserved.
+                </p>
+            </footer>
+        </main>
+
+    </div>
+
+     <!-- Script to set current year -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+
+</body>
+
+</html>
